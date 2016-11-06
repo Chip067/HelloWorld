@@ -5,3 +5,15 @@
 
 using std::string;
 
+class HelloWorld
+{
+public:
+	HelloWorld();
+	~HelloWorld();
+
+	string GetMessage();
+	void SetMessage(string);
+
+private:
+	string message;
+};

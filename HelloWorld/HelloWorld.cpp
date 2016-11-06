@@ -1,19 +1,6 @@
 /*HelloWorld source file*/
 #include "HelloWorld.h"
 
-class HelloWorld
-{
-public:
-	HelloWorld();
-	~HelloWorld();
-
-	string GetMessage();
-	void SetMessage(string);
-
-private:
-	 string message;
-};
-
 HelloWorld::HelloWorld()
 {
 	/*Initialise message to HelloWorld*/
